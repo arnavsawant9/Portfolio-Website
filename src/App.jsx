@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './Navbar/Navbar'
+//import About from "./About/About"
+import ProfileHeader from './About/ProfileHeader'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -10,6 +12,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <ProfileHeader />
     </>
   )
 }

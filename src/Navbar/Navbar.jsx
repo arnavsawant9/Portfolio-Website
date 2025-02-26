@@ -1,5 +1,4 @@
 import React from 'react'
-import taylor from '../assets/taylor.webp'
 
 const Navbar = () => {
   return (
