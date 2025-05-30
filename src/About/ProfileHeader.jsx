@@ -93,13 +93,14 @@ import html from "../assets/html.png";
 import arnav_new from "../assets/arnav-new.jpg";
 import RotatedRingsModel from "./RotatedRingsModel";
 import SoldierModel from "./SoldierModel";
+import LaptopTableModel from "./LaptopTableModel";
 
 const ProfileHeader = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-black text-white p-6 gap-10">
       {/* Rotated rings 3D Model */}
       <div className="w-full md:w-1/2 h-[400px]">
-        <SoldierModel />
+        <LaptopTableModel />
       </div>
 
       {/* Profile Info */}
