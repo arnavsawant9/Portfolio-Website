@@ -9,6 +9,7 @@ import Navbar from './Navbar/Navbar'
 import ProfileHeader from './About/ProfileHeader'
 import TimeLine from './TimeLine'
 import Footer from './Footer'
+import Projects from './Projects/Projects'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <Navbar />
       <ProfileHeader />
       <TimeLine />
+      <Projects />
       <Footer />
     </>
   )
