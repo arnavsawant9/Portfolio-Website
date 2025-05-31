@@ -10,6 +10,7 @@ import ProfileHeader from './About/ProfileHeader'
 import TimeLine from './TimeLine'
 import Footer from './Footer'
 import Projects from './Projects/Projects'
+import Contact from './Contact/Contact'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
       <ProfileHeader />
       <TimeLine />
       <Projects />
+      <Contact />
       <Footer />
     </>
   )
