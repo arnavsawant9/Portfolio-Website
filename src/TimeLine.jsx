@@ -35,8 +35,8 @@ const TimeLine = () => {
     ];
 
   return (
-    <div className="flex flex-col justify-center items-center max-w-5xl mx-auto p-2 pb-15">
-        <h1 className="p-1 pt-5 text-white text-3xl md:text-5xl font-bold text-center mb-8">Education</h1>
+    <div className="flex flex-col justify-center items-center max-w-5xl mx-auto p-2 pb-18">
+        <h1 className="p-1 pt-1 text-white text-3xl md:text-5xl font-bold text-center mb-8">Education</h1>
         <div className="relative border-l-4 border-gray-300 dark:border-gray-600">
           {events.map((event, index) => (
             <div key={index} className="mb-9 ml-9">
